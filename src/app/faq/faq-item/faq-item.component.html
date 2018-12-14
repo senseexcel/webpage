@@ -1,0 +1,10 @@
+<div class="acd-group">
+  <a id="{{myIndex == 0}}" href="#" [className]="myIndex == 0 ? 'acd-heading acd-active' : 'acd-heading'">{{ faqItem.header }}</a>
+  <div [className]="myIndex == 0 ? 'acd-des acd-active' : 'acd-des'">
+    <p>{{ faqItem.text }}</p>
+
+    <ul class="list list-mark mt-20">
+      <li *ngFor="let listitem of faqItem.list">{{ listitem.text }}</li>    
+    </ul>
+  </div>
+</div>

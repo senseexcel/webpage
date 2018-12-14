@@ -15,6 +15,8 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { SubscribeOkComponent } from './subscribe-ok/subscribe-ok.component';
 import { EventsComponent } from './events/events.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { GdprComponent } from './gdpr/gdpr.component';
+import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
   {
@@ -76,6 +78,14 @@ const routes: Routes = [
   {
     path: 'events.html',
     component: EventsComponent
+  },
+  {
+    path: 'gdpr.html',
+    component: GdprComponent
+  },
+  {
+    path: 'faqs.html',
+    component: FaqComponent
   },
   {
     path: '**',

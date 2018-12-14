@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { infos } from '../config/versions.settings';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,11 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor(private titleService: Title) { }
+  sense = infos;
+  constructor(private titleService: Title) {}
 
   ngOnInit() {
-    this.titleService.setTitle('Sense Excel 3.2.0');
+    this.titleService.setTitle(this.sense.excel.name + ' ' + this.sense.excel.version );
   }
 
 }

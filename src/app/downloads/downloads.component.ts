@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { infos } from '../config/versions.settings';
 
 @Component({
   selector: 'app-downloads',
@@ -7,7 +8,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./downloads.component.css']
 })
 export class DownloadsComponent implements OnInit {
-
+  sense = infos;
   constructor(private titleService: Title) { }
 
   ngOnInit() {
