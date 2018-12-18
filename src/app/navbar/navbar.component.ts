@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { infos } from '../config/versions.settings';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  sense = infos;
   constructor() { }
 
   ngOnInit() {

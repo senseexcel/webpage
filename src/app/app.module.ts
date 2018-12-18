@@ -43,6 +43,9 @@ import { Mauticform2Component } from './contactus/mauticform2/mauticform2.compon
 import { SubscribeOkComponent } from './subscribe-ok/subscribe-ok.component';
 import { EventsComponent } from './events/events.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { GdprComponent } from './gdpr/gdpr.component';
+import { FaqComponent } from './faq/faq.component';
+import { FaqItemComponent } from './faq/faq-item/faq-item.component';
 
 
 @NgModule({
@@ -88,7 +91,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     Mauticform2Component,
     SubscribeOkComponent,
     EventsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    GdprComponent,
+    FaqComponent,
+    FaqItemComponent
   ],
   imports: [
     BrowserModule,
