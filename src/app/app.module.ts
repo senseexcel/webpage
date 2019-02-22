@@ -46,6 +46,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { GdprComponent } from './gdpr/gdpr.component';
 import { FaqComponent } from './faq/faq.component';
 import { FaqItemComponent } from './faq/faq-item/faq-item.component';
+import { PartnersComponent } from './partners/partners.component';
+import { PartnerItemComponent } from './partners/partner-item/partner-item.component';
+import { DownloadExmapleItemComponent } from './downloads/download-exmaple-item/download-exmaple-item.component';
+import { TrustedUrlPipe } from './core/pipes/trusted-url.pipe';
+import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikqonnectionsdays.component';
+import { Mauticform3Component } from './contactus/mauticform3/mauticform3.component';
+import { QonnectionMdComponent } from './modals/qonnection-md/qonnection-md.component';
+import { QonnectionsBannerComponent } from './events/qonnections-banner/qonnections-banner.component';
 
 
 @NgModule({
@@ -94,7 +102,15 @@ import { FaqItemComponent } from './faq/faq-item/faq-item.component';
     NotFoundComponent,
     GdprComponent,
     FaqComponent,
-    FaqItemComponent
+    FaqItemComponent,
+    PartnersComponent,
+    PartnerItemComponent,
+    DownloadExmapleItemComponent,
+    TrustedUrlPipe,
+    QlikqonnectionsdaysComponent,
+    Mauticform3Component,
+    QonnectionMdComponent,
+    QonnectionsBannerComponent
   ],
   imports: [
     BrowserModule,
