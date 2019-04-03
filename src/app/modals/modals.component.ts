@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { infos } from '../config/versions.settings';
 
 @Component({
   selector: 'app-modals',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modals.component.css']
 })
 export class ModalsComponent implements OnInit {
-
+  sense = infos;
   constructor() { }
 
   ngOnInit() {
