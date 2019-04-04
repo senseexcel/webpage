@@ -17,6 +17,8 @@ import { EventsComponent } from './events/events.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { GdprComponent } from './gdpr/gdpr.component';
 import { FaqComponent } from './faq/faq.component';
+import { PartnersComponent } from './partners/partners.component';
+import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikqonnectionsdays.component';
 
 const routes: Routes = [
   {
@@ -80,12 +82,20 @@ const routes: Routes = [
     component: EventsComponent
   },
   {
+    path: 'qlikqonnections-days-2019.html',
+    component: QlikqonnectionsdaysComponent
+  },
+  {
     path: 'gdpr.html',
     component: GdprComponent
   },
   {
     path: 'faqs.html',
     component: FaqComponent
+  },
+  {
+    path: 'partners.html',
+    component: PartnersComponent
   },
   {
     path: '**',

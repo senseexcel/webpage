@@ -14,7 +14,8 @@
               <div class="text-center">
                 <input class="form-control" type="text" placeholder="Email address" name="email1" value="">
                 <div class="clear">
-                  <button type="submit" name="submitbtn" class="button button-border mt-20 form-button"> download now</button>
+                  <button type="submit" name="submitbtn" class="button button-border mt-20 form-button"> download
+                    now</button>
                 </div>
               </div>
             </div>
@@ -43,7 +44,8 @@
 
                           <br />Berlin, DE</a>
                       </h3>
-                      <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=medium&timezone=Europe%2FBerlin"
+                      <iframe
+                        src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=medium&timezone=Europe%2FBerlin"
                         width="100%" height="115" frameborder="0" seamless></iframe>
                       <small style="color:gray;">&copy;
                         <a href="https://www.zeitzonenrechner.net/" style="color: gray;">Zeitzonenrechner</a>
@@ -56,7 +58,8 @@
                         <a style="text-decoration:none;" href="https://www.zeitverschiebung.net/de/city/3558771">
                           <br />Florida, USA</a>
                       </h3>
-                      <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=medium&timezone=America%2FHavana"
+                      <iframe
+                        src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=medium&timezone=America%2FHavana"
                         width="100%" height="115" frameborder="0" seamless></iframe>
                       <small style="color:gray;">&copy;
                         <a href="https://www.zeitzonenrechner.net/" style="color: gray;">Zeitzonenrechner</a>
@@ -70,6 +73,93 @@
                 <button type="button" class="button gray" data-dismiss="modal">Close</button>
               </div>
             </div>
+          </div>
+        </div>
+        <!-- Modal 2 -->
+        <div id="myLargeModalLabel" class="modal text-center" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="exampleModalLongTitle">
+                  <div class="section-title mb-10">
+                    <h6>EXPERTISE</h6>
+                    <h2>Modal title</h2>
+                    <p>We are an innovative agency. We develop and design customers around the world. Our clients are
+                      some of
+                      the most forward-looking companies in the world.</p>
+                  </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl
+                consectetur
+                et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal-onload" data-target="#ModalRelease"></div>
+        <div class="ModalRelease mfp-hide text-center" id="ModalRelease">
+          <div class="modal-simple-content">
+            <h1><i class="fa fa-space-shuttle"></i> NEW RELEASE {{sense.excel.version}}!</h1>
+            <div class="table-responsive">
+              <table class="table table-1 table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Sense Excel {{sense.excel.version}}<br>
+                    (release notes) </th>
+                    <th>Sense Excel Reporting {{sense.excel.reporting.version}}<br>
+                    (release notes) </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-left p-2">Alternate States</td>
+                    <td class="text-left p-2">Core engine change to enigma.net</td>
+                   
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Preview Reports</td>
+                    <td class="text-left p-2">Faster Report Creation</td>
+                   
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Default Bookmarks</td>
+                    <td class="text-left p-2">Redesigned Connector with Improved Messaging</td>
+                   
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Selection Tool Workflow Optimization</td>
+                    <td class="text-left p-2">Improved Connection to Qlik Sense</td>
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Additional Feedback</td>
+                    <td class="text-left p-2">Swagger Compatible for rest service on Docker systems</td>
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Optimized Performance</td>
+                    <td class="text-left p-2">Monitoring Apps for Report Tasks</td>
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Bugfixing &</td>
+                    <td class="text-left p-2">New Log output format (CSV)</td>
+                  </tr>
+                  <tr>
+                    <td class="text-left p-2">Closed hidden bugs <i class="fa fa-smile-o"></i></td>
+                    <td class="text-left p-2">Spreadsheet XML Output</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <a class="button mt-30 black " href="/downloads.html">Download {{ sense.excel.version}} version</a>
+            <a class="button mt-30 popup-modal-dismiss" href="#">close</a>
           </div>
         </div>
       </div>

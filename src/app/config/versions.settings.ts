@@ -1,17 +1,22 @@
 export const infos = {
     excel: {
         name: 'Sense Excel',
-        version: '3.2.1',
-        download: 'https://m.sense2go.net/asset/34:se-321zip',
+        version: '3.4.1',
+        download: 'https://m.sense2go.net/asset/44:se-341zip',
         reporting: {
             name: 'Sense Excel Reporting',
-            version: '3.2.1',
-            download: 'https://m.sense2go.net/asset/36:ser-321zip'
+            version: '3.4.0',
+            download: 'https://m.sense2go.net/asset/46:ser-340'
         },
         fullpackage: {
-            name: 'Sense-Excel-Fullpackage.3.2.1.zip',
-            version: '3.2.1',
-            download: 'https://m.sense2go.net/asset/35:sense-excel-fullpackage321zip'
+            name: 'Sense-Excel-Fullpackage.3.4.0.zip',
+            version: '3.4.0',
+            download: 'https://m.sense2go.net/asset/42:sense-excel-fullpackage340zip'
+        },
+        smc: {
+            name: 'SMC-1.4.0.zip',
+            version: '1.4.0',
+            download: 'https://m.sense2go.net/asset/45:ser-smc140zip'
         }
     }
 };

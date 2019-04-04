@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-header">
+  {{downloaditem.header}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{downloaditem.subheader}}</h5>
+    <p class="card-text">{{downloaditem.text}} </p>
+    <div class="mb-10">
+      <div class="js-video [youtube, widescreen]" *ngIf="downloaditem.showyoutube">
+        <iframe [src]="downloaditem.youtubelink | trustedUrl" allowfullscreen="1"></iframe>
+      </div>
+      
+        <img *ngIf="!downloaditem.showyoutube" class="img-fluid mx-auto" [src]="downloaditem.placeholderimage" alt="Sense Excel Reporting Examples">
+      
+    </div>
+    <div>
+      <a href="{{downloaditem.downloadlink }}" class="btn button btn-block black text-white">Download Now</a>
+    </div>
+  </div>
+</div>
