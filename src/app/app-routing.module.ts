@@ -19,6 +19,7 @@ import { GdprComponent } from './gdpr/gdpr.component';
 import { FaqComponent } from './faq/faq.component';
 import { PartnersComponent } from './partners/partners.component';
 import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikqonnectionsdays.component';
+import { TriallicenseComponent } from './triallicense/triallicense.component';
 
 const routes: Routes = [
   {
@@ -96,6 +97,10 @@ const routes: Routes = [
   {
     path: 'partners.html',
     component: PartnersComponent
+  },
+  {
+    path: 'get-a-trial-license.html',
+    component: TriallicenseComponent
   },
   {
     path: '**',

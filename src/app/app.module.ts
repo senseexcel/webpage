@@ -54,6 +54,8 @@ import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikq
 import { Mauticform3Component } from './contactus/mauticform3/mauticform3.component';
 import { QonnectionMdComponent } from './modals/qonnection-md/qonnection-md.component';
 import { QonnectionsBannerComponent } from './events/qonnections-banner/qonnections-banner.component';
+import { MauticformtriallicvisitorsComponent } from './contactus/mauticformtriallicvisitors/mauticformtriallicvisitors.component';
+import { TriallicenseComponent } from './triallicense/triallicense.component';
 
 
 @NgModule({
@@ -110,7 +112,9 @@ import { QonnectionsBannerComponent } from './events/qonnections-banner/qonnecti
     QlikqonnectionsdaysComponent,
     Mauticform3Component,
     QonnectionMdComponent,
-    QonnectionsBannerComponent
+    QonnectionsBannerComponent,
+    MauticformtriallicvisitorsComponent,
+    TriallicenseComponent
   ],
   imports: [
     BrowserModule,
