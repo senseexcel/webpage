@@ -776,6 +776,17 @@ var _arr  = {};
 /****************************************************
      POTENZA Window load and functions
 ****************************************************/
+POTENZA.getLicense = function () {
+
+  var d = new Date();
+  $('#mauticform_input_senseexcellicenseorder_trial_license_periode_max').val( "The period starts at: " + d.toLocaleDateString('en-US'))
+$('#mauticform_input_senseexcellicenseorder_only_demo_or_sense_excel,#mauticform_input_senseexcellicenseorder_productorder, #mauticform_input_senseexcellicenseorder_subscription_order').unbind('change').change(function(){
+  $("select:not(#"+this.id+")").prop('selectedIndex',999);
+  });
+};
+
+
+
   //Window load functions
     $window.load(function () {
           POTENZA.preloader(),
@@ -815,5 +826,6 @@ var _arr  = {};
         POTENZA.masonry(),
         POTENZA.mobileview();
         POTENZA.invertTimline();
+        POTENZA.getLicense();
     });
 })(jQuery);

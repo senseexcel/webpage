@@ -1,22 +1,27 @@
 export const infos = {
     excel: {
         name: 'Sense Excel',
-        version: '3.6.7',
-        download: 'https://m.sense2go.net/asset/61:se-367zip',
+        version: '4.0',
+        download: 'https://m.sense2go.net/asset/63:sense-excel-install--updater',
         reporting: {
             name: 'Sense Excel Reporting',
-            version: '3.6.7',
-            download: 'https://m.sense2go.net/asset/59:ser-367zip'
+            version: '4.0',
+            download: 'https://m.sense2go.net/asset/43:ser-40'
         },
         fullpackage: {
-            name: 'Sense-Excel-Fullpackage.3.6.7.zip',
-            version: '3.6.7',
+            name: 'Sense-Excel-All-In-One.4.0.zip',
+            version: '4.0',
             download: 'https://m.sense2go.net/asset/48:se-fullpackage-current-version'
         },
         smc: {
-            name: 'SMC-3.5.8.zip',
-            version: '3.5.8',
-            download: 'https://m.sense2go.net/asset/58:ser-smc358zip'
+            name: 'SMC-4.0.zip',
+            version: '4.0',
+            download: 'https://m.sense2go.net/asset/66:ser-smc40zip'
         }
+    },
+    installer: {
+        name: 'Sense Excel Plugin Installer & Updater',
+        version: '1.0.2',
+        download: 'https://m.sense2go.net/asset/63:sense-excel-install--updater'
     }
 };

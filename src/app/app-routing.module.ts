@@ -18,7 +18,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { GdprComponent } from './gdpr/gdpr.component';
 import { FaqComponent } from './faq/faq.component';
 import { PartnersComponent } from './partners/partners.component';
+import { TrainingComponent } from './training/training.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikqonnectionsdays.component';
+import { GetDemoLicenseComponent } from './get-demo-license/get-demo-license.component';
+import { GetDownloadlinkComponent } from './get-downloadlink/get-downloadlink.component';
 
 const routes: Routes = [
   {
@@ -53,10 +57,10 @@ const routes: Routes = [
     path: 'downloads.html',
     component: DownloadsComponent
   },
-  {
-    path: 'our-pricing-infos.html',
-    component: PricingComponent
-  },
+  // {
+  //   path: 'our-pricing-infos.html',
+  //   component: PricingComponent
+  // },
   {
     path: 'technical-overview-ser.html',
     component: TechnicalOverviewSerComponent
@@ -78,6 +82,10 @@ const routes: Routes = [
     component: SubscribeOkComponent
   },
   {
+    path: 'get-download.html',
+    component: GetDownloadlinkComponent
+  },
+  {
     path: 'events.html',
     component: EventsComponent
   },
@@ -96,6 +104,18 @@ const routes: Routes = [
   {
     path: 'partners.html',
     component: PartnersComponent
+  },
+  {
+    path: 'bi-training.html',
+    component: TrainingComponent
+  },
+  {
+    path: 'our-testimonials.html',
+    component: TestimonialsComponent
+  },
+  {
+    path: 'get-demo-license.html',
+    component: GetDemoLicenseComponent
   },
   {
     path: '**',

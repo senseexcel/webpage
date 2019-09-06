@@ -1,0 +1,264 @@
+<script type="text/javascript">
+  /** This section is only needed once per page if manually copying **/
+  if (typeof MauticSDKLoaded == 'undefined') {
+    var MauticSDKLoaded = true;
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://m.sense2go.net/media/js/mautic-form.js';
+    script.onload = function () {
+      MauticSDK.onLoad();
+    };
+    head.appendChild(script);
+    var MauticDomain = 'https://m.sense2go.net';
+    var MauticLang = {
+      'submittingMessage': "Bitte warten..."
+    }
+  }
+
+</script>
+
+
+<div id="mauticform_wrapper_senseexcellicenseorder" class="mauticform_wrapper">
+  <form autocomplete="false" role="form" method="post" action="https://m.sense2go.net/form/submit?formId=47"
+    id="mauticform_senseexcellicenseorder" data-mautic-form="senseexcellicenseorder" enctype="multipart/form-data">
+    <div class="mauticform-error" id="mauticform_senseexcellicenseorder_error"></div>
+    <div class="mauticform-message" id="mauticform_senseexcellicenseorder_message"></div>
+    <div class="mauticform-innerform">
+
+
+      <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+        <h3 class="theme-color mt-20 mb-20">Happy, to see you here :-)</h3>
+        <div class="contact-form clearfix">
+          <div id="mauticform_senseexcellicenseorder_qlik_sense_version" data-validate="qlik_sense_version"
+            data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
+            <label id="mauticform_label_senseexcellicenseorder_qlik_sense_version"
+              for="mauticform_input_senseexcellicenseorder_qlik_sense_version" class="mauticform-label">Please tell us
+              your Qlik Sense key!</label>
+            <span class="mauticform-helpmessage">(To create your own license we need the Qlik Sense key from your
+              Server)</span>
+            <input id="mauticform_input_senseexcellicenseorder_qlik_sense_version" name="mauticform[qlik_sense_version]"
+              value="" placeholder="Qlik Sense key*" class=" form-control" type="text">
+            <span class="mauticform-errormsg" style="display: none;">Please fill with your Qlik Sense key</span>
+          </div>
+        </div>
+        <div class="contact-form clearfix">
+          <!-- Company -->
+
+          <div id="mauticform_senseexcellicenseorder_company" data-validate="company" data-validation-type="text"
+            class="mauticform-row mauticform-text mauticform-field-2 mauticform-required section-field">
+            <input id="mauticform_input_senseexcellicenseorder_company" name="mauticform[company]" value=""
+              placeholder="Company*" class=" form-control" type="text">
+            <span class="mauticform-errormsg" style="display: none;">Please fill company name!</span>
+          </div>
+          <!-- Name -->
+          <div id="mauticform_senseexcellicenseorder_lastname" data-validate="lastname" data-validation-type="text"
+            class="mauticform-row mauticform-text mauticform-field-4 mauticform-required section-field">
+            <input id="mauticform_input_senseexcellicenseorder_lastname" name="mauticform[lastname]" value=""
+              placeholder="Contact name*" class=" form-control" type="text">
+            <span class="mauticform-errormsg" style="display: none;">Please fill your name.</span>
+          </div>
+          <!-- Phone -->
+          <div id="mauticform_senseexcellicenseorder_phone" data-validate="phone" data-validation-type="tel"
+            class="mauticform-row mauticform-tel mauticform-field-3 mauticform-required section-field">
+            <input id="mauticform_input_senseexcellicenseorder_phone" name="mauticform[phone]" value=""
+              placeholder="Your Phone*" class=" form-control" type="tel">
+            <span class="mauticform-errormsg" style="display: none;">Please fill your phone number</span>
+          </div>
+        </div>
+
+        <!-- E-Mail -->
+        <div id="mauticform_senseexcellicenseorder_email" data-validate="email" data-validation-type="email"
+          class="mauticform-row mauticform-email mauticform-field-5 mauticform-required">
+          <input id="mauticform_input_senseexcellicenseorder_email" name="mauticform[email]" value=""
+            placeholder="Valid email*" class=" form-control" type="email">
+          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+        </div>
+
+        <section class="action-box full-width theme-bg mt-50">
+          <h3 class="mt-20 mb-20">Get your trial license - for All in One</h3>
+          <div class="row">
+            <div class="col-6">
+              <div id="mauticform_senseexcellicenseorder_only_demo_or_sense_excel"
+                class="mauticform-row mauticform-select mauticform-field-13">
+
+                <select id="mauticform_input_senseexcellicenseorder_only_demo_or_sense_excel"
+                  name="mauticform[only_demo_or_sense_excel][]" value="no demo" class="mauticform-selectbox" multiple>
+                  <option value="DEMO trial license Sense Excel">DEMO trial license Sense Excel</option>
+                  <option value="DEMO trial license Sense Excel Reporting">DEMO trial license Sense Excel Reporting
+                  </option>
+                </select>
+                <span class="mauticform-errormsg" style="display: none;"></span>
+                <p class="mt-30">
+                  (The trial license is without any limitation)
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div id="mauticform_senseexcellicenseorder_trial_license_periode_max"
+                data-validate="trial_license_periode_max" data-validation-type="date"
+                class="mauticform-row mauticform-date mauticform-field-15 mauticform-required ">
+
+                <input id="mauticform_input_senseexcellicenseorder_trial_license_periode_max"
+                  name="mauticform[trial_license_periode_max]" value="" class=" form-control" type="text">
+                <span class="mauticform-errormsg" style="display: none;">Please fill...</span>
+                <p class="mt-30">
+                  When should the trial license period start?<br>
+                  (Trial license periode max. ~ 30 days)
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </section>
+
+        <!-- H3 make selections-->
+        <div id="mauticform_senseexcellicenseorder_text_1"
+          class="mauticform-row mauticform-freehtml mauticform-field-6">
+          <div id="mauticform_input_senseexcellicenseorder_text_1" name="mauticform[text_1]" value=""
+            class="mauticform-freehtml">
+            <h3 class="theme-color mt-30 mb-30">
+              You want more? Make your decisions!
+              <p>Select "On-Prem" or just "Subscription"</p>
+            </h3>
+          </div>
+        </div>
+        <section class="action-box full-width theme-bg mt-50">
+          <div class="row">
+              <div class="col-6">
+                  <div id="mauticform_senseexcellicenseorder_subscription_order"
+                    class="mauticform-row mauticform-select mauticform-field-9 ">
+                    <h3 id="mauticform_label_senseexcellicenseorder_subscription_order"
+                      for="mauticform_input_senseexcellicenseorder_subscription_order" class="text-white mt-20 mb-20">
+                      Subscription<p>
+    
+                      </p>
+                    </h3>
+                    <select id="mauticform_input_senseexcellicenseorder_subscription_order"
+                      name="mauticform[subscription_order][]" value="" class="mauticform-selectbox" multiple>
+                      <option value="Sense Excel - Basic as subscription order">Sense Excel - Basic subscription</option>
+                      <option value="Sense Excel Reporting SMB subscription order">Sense Excel Reporting SMB subscription
+                      </option>
+                      <option value="Sense Excel Reporting Enterprise subscription order">Sense Excel Reporting Enterprise
+                        subscription</option>
+                    </select>
+                    <span class="mauticform-errormsg" style="display: none;"></span>
+                  </div>
+                </div>
+            <div class="col-6">
+              <div id="mauticform_senseexcellicenseorder_productorder"
+                class="mauticform-row mauticform-select mauticform-field-7 section-field">
+                <h3 id="mauticform_label_senseexcellicenseorder_productorder"
+                  for="mauticform_input_senseexcellicenseorder_productorder" class="text-white mt-20 mb-20">On-Premises
+                </h3>
+                <select id="mauticform_input_senseexcellicenseorder_productorder" name="mauticform[productorder][]"
+                  value="" class="mauticform-selectbox" multiple>
+                  <option value="Sense Excel - Basic">Sense Excel - Basic</option>
+                  <option value="Sense Excel Reporting SMB">Sense Excel Reporting SMB</option>
+                  <option value="Sense Excel Reporting Enterprise">Sense Excel Reporting Enterprise</option>
+                </select>
+                <span class="mauticform-errormsg" style="display: none;"></span>
+              </div>
+            </div>
+          
+          </div>
+
+
+
+
+          <div id="mauticform_senseexcellicenseorder_hr_2"
+            class="mauticform-row mauticform-freehtml mauticform-field-10">
+            <div id="mauticform_input_senseexcellicenseorder_hr_2" name="mauticform[hr_2]" value=""
+              class="mauticform-freehtml">
+
+            </div>
+          </div>
+
+        </section>
+        <div id="mauticform_senseexcellicenseorder_sense_excel_amount"
+          class="mauticform-row mauticform-number mauticform-field-11">
+          <h3 id="mauticform_label_senseexcellicenseorder_sense_excel_amount"
+            for="mauticform_input_senseexcellicenseorder_sense_excel_amount" class="text-white mt-20 mb-20">How many
+            Sense
+            Excel named CAL you need?
+            <p><span class="mauticform-helpmessage">(min. 5 name CALs included)</span></p>
+          </h3>
+
+          <input id="mauticform_input_senseexcellicenseorder_sense_excel_amount" name="mauticform[sense_excel_amount]"
+            value="5" class="form-control" style="width: 25%; margin: 0 auto" type="number"><br>
+          <span class="mauticform-errormsg" style="display: none;"></span>
+
+        </div>
+
+        <div id="mauticform_senseexcellicenseorder_hr_3" class="mauticform-row mauticform-freehtml mauticform-field-12">
+          <div id="mauticform_input_senseexcellicenseorder_hr_3" name="mauticform[hr_3]" value=""
+            class="mauticform-freehtml">
+
+          </div>
+        </div>
+
+        <h3 id="mauticform_label_senseexcellicenseorder_signed_contract"
+          for="mauticform_input_senseexcellicenseorder_signed_contract" class="text-white mt-20 mb-20">Last but not
+          least
+        </h3>
+
+
+        <div class="contact-form clearfix">
+
+
+          <div id="mauticform_senseexcellicenseorder_signed_contract"
+            class="mauticform-row mauticform-file mauticform-field-14 section-field">
+            <input id="mauticform_input_senseexcellicenseorder_signed_contract" name="mauticform[signed_contract]"
+              value="" class=" form-control" type="file">
+            <span class="mauticform-errormsg" style="display: none;"></span>
+            <span class="mauticform-helpmessage">(* optional: please add your contract here)</span>
+          </div>
+
+
+
+          <div id="mauticform_senseexcellicenseorder_partner"
+            class="mauticform-row mauticform-text mauticform-field-16 section-field">
+
+            <input id="mauticform_input_senseexcellicenseorder_partner" name="mauticform[partner]" value=""
+              placeholder="Sense Excel Partner-ID" class=" form-control" type="text">
+            <span class="mauticform-errormsg" style="display: none;"></span>
+            <label id="mauticform_label_senseexcellicenseorder_partner"
+              for="mauticform_input_senseexcellicenseorder_partner" class="mauticform-label">(* optional: partner
+              name)</label>
+          </div>
+
+          <div id="mauticform_senseexcellicenseorder_send_order"
+            class="mauticform-row mauticform-button-wrapper mauticform-field-18 section-field">
+            <button type="submit" name="mauticform[send_order]" id="mauticform_input_senseexcellicenseorder_send_order"
+              value="" class="mauticform-button btn btn-default theme-bg text-white"
+              style="width: 100%; padding: 10px">Get license...</button>
+          </div>
+
+        </div>
+
+
+
+        <div id="mauticform_senseexcellicenseorder_recaptcha_google"
+          class="mauticform-row mauticform-div-wrapper mauticform-field-17">
+
+          <div class="g-recaptcha" data-sitekey="6Lc0bGoUAAAAAJSu5Sq9wNrFN3BrSQho2SfY9Of-"
+            data-callback="verifyCallback"></div>
+          <input id="mauticform_input_senseexcellicenseorder_recaptcha_google" name="mauticform[recaptcha_google]"
+            value="" class=" form-control" type="hidden">
+          <span class="mauticform-errormsg" style="display: none;"></span>
+        </div>
+
+
+      </div>
+    </div>
+
+    <input type="hidden" name="mauticform[formId]" id="mauticform_senseexcellicenseorder_id" value="47">
+    <input type="hidden" name="mauticform[return]" id="mauticform_senseexcellicenseorder_return" value="">
+    <input type="hidden" name="mauticform[formName]" id="mauticform_senseexcellicenseorder_name"
+      value="senseexcellicenseorder">
+
+  </form>
+</div>

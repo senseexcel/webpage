@@ -54,6 +54,16 @@ import { QlikqonnectionsdaysComponent } from './events/qlikqonnectionsdays/qlikq
 import { Mauticform3Component } from './contactus/mauticform3/mauticform3.component';
 import { QonnectionMdComponent } from './modals/qonnection-md/qonnection-md.component';
 import { QonnectionsBannerComponent } from './events/qonnections-banner/qonnections-banner.component';
+import { TrainingComponent } from './training/training.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { PartnertestimonialComponent } from './testimonials/partnertestimonial/partnertestimonial.component';
+import { UpaterToolComponent } from './upater-tool/upater-tool.component';
+import { DownloadInstallerComponent } from './downloads/download-installer/download-installer.component';
+import { MauticformTrainingComponent } from './contactus/mauticform-training/mauticform-training.component';
+import { MauticformGetLicenseComponent } from './contactus/mauticform-get-license/mauticform-get-license.component';
+import { GetDemoLicenseComponent } from './get-demo-license/get-demo-license.component';
+import { PartnerListComponent } from './testimonials/partner-list/partner-list.component';
+import { GetDownloadlinkComponent } from './get-downloadlink/get-downloadlink.component';
 
 
 @NgModule({
@@ -110,7 +120,17 @@ import { QonnectionsBannerComponent } from './events/qonnections-banner/qonnecti
     QlikqonnectionsdaysComponent,
     Mauticform3Component,
     QonnectionMdComponent,
-    QonnectionsBannerComponent
+    QonnectionsBannerComponent,
+    TrainingComponent,
+    TestimonialsComponent,
+    PartnertestimonialComponent,
+    UpaterToolComponent,
+    DownloadInstallerComponent,
+    MauticformTrainingComponent,
+    MauticformGetLicenseComponent,
+    GetDemoLicenseComponent,
+    PartnerListComponent,
+    GetDownloadlinkComponent
   ],
   imports: [
     BrowserModule,
